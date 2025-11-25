@@ -1,67 +1,205 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Dog Walkers</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saramatic | Modern Brand Commerce</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
-
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
 </head>
-
 <body>
-
- <!-- navigation code here -->
-  <div class="container home">
-    <header class="intro">
-       <!-- image code here -->
-      <h2>Walk Off</h2>
-    
-      <p>Lets walk some dogs! Lets walk some dogs! Lets walk some dogs! Lets walk some dogs! Lets walk some dogs! Lets walk some dogs! Lets walk some dogs!</p>
-    </header>
-
-    <section class="dog-images">
-        <img class="dog-image-1" src="img/dog1.jpg" class="blast" alt="Smiling dog">
-        <img class="dog-image-2" src="img/dog2.jpeg" class="sky" alt="Smiling dog">
-        <img class="dog-image-3" src="img/dog3.jpg" class="launch" alt="Smiling dog">
-    </section>
-   
-    <section class="visit-dogs">
-     
-      <h3>Lets walk some dogs!</h3>
-    
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae itaque, molestias consectetur sint eum fuga voluptatibus non magni amet doloremque. Tempora maiores soluta temporibus omnis? Tempore, quam. Facilis, nostrum minima?</p>
-    
-      <p>Let's walk some dogs! Let's walk some dogs! Let's walk some dogs! Let's walk some dogs! Let's walk some dogs! Let's walk some dogs!</p>
-    </section>
-    
-    <section class="walk">
-      <div class="walk-text">
-        <h3>Let's Go For a Walk</h3>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptates alias, error perferendis quidem tempore nihil mollitia cupiditate natus similique, aliquid at voluptatum laudantium eum. Ipsa voluptatibus doloremque quam eligendi!</p>
-
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias possimus blanditiis iste labore voluptatum dolorem praesentium animi, ab est ipsam cupiditate dolores fugiat architecto quod velit porro esse. Illo, necessitatibus.</p>
-      
-        <div class="button">
-          Sign Up
+  <div class="page">
+    <header class="hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__content container">
+        <div class="hero__text">
+          <p class="eyebrow">Next.js • React • Tailwind • Clerk • Shopify</p>
+          <h1>Saramatic, elevated</h1>
+          <p class="lede">A luxe digital flagship for your brand—crafted with performance-ready Next.js, secure Clerk auth, and seamless Shopify commerce.</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#experience">Explore the experience</a>
+            <a class="button button--ghost" href="#contact">Book a strategy call</a>
+          </div>
+        </div>
+        <div class="hero__badge">
+          <div class="badge__ring">
+            <div class="badge__core">
+              <p class="badge__label">Saramatic</p>
+              <span class="badge__sub">Since 2024</span>
+            </div>
+          </div>
         </div>
       </div>
-      
-      <div class="walk-img">
-          <img src="img/dog-walk.jpeg" alt="Dog lying down">
+    </header>
+
+    <main>
+      <section id="experience" class="section section--light">
+        <div class="container">
+          <div class="section__header">
+            <p class="eyebrow">Full-stack craft</p>
+            <h2>A signature experience in five pillars</h2>
+            <p class="section__lede">Everything needed to launch your brand—from a bespoke landing page to authenticated member spaces and a conversion-tuned shop.</p>
+          </div>
+          <div class="grid grid--three">
+            <article class="card">
+              <div class="card__icon">⚡</div>
+              <h3>Next.js foundation</h3>
+              <p>SEO-ready routes, image optimization, and streaming for a fast, modern storefront and editorial site.</p>
+            </article>
+            <article class="card">
+              <div class="card__icon">🛍️</div>
+              <h3>Shopify integration</h3>
+              <p>Curated collections, custom product pages, and a refined cart that keeps your identity front-and-center.</p>
+            </article>
+            <article class="card">
+              <div class="card__icon">🔐</div>
+              <h3>Clerk membership</h3>
+              <p>Secure logins, profiles, and gated content for VIP drops, founder notes, and loyalty perks.</p>
+            </article>
+            <article class="card">
+              <div class="card__icon">🎨</div>
+              <h3>Tailwind styling</h3>
+              <p>Utility-first styling aligned to Saramatic’s palette—Teal, Mauve, Blush, Cream, and Gold accents.</p>
+            </article>
+            <article class="card">
+              <div class="card__icon">📈</div>
+              <h3>Analytics & A/B</h3>
+              <p>Event tracking and quick experiments so you can learn what resonates and iterate confidently.</p>
+            </article>
+            <article class="card">
+              <div class="card__icon">🤝</div>
+              <h3>Launch support</h3>
+              <p>From DNS to deployment, we ship, test, and hand off with documentation and a smooth admin toolkit.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--highlight">
+        <div class="container highlight">
+          <div class="highlight__text">
+            <p class="eyebrow">Signature aesthetic</p>
+            <h2>Romantic flourishes with a modern spine</h2>
+            <p class="section__lede">Ornate framing, editorial typography, and soft gradients inspired by your palette. Perfect for product storytelling, founder letters, and campaign landing pages.</p>
+            <div class="pill-list">
+              <span class="pill">Gradient hero modules</span>
+              <span class="pill">Editorial product layouts</span>
+              <span class="pill">Quick-view modals</span>
+              <span class="pill">Email capture blocks</span>
+            </div>
+          </div>
+          <div class="highlight__frame">
+            <div class="frame__circle frame__circle--teal"></div>
+            <div class="frame__circle frame__circle--mauve"></div>
+            <div class="frame__circle frame__circle--blush"></div>
+            <div class="frame__circle frame__circle--cream"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark">
+        <div class="container dark-panel">
+          <div class="dark-panel__info">
+            <p class="eyebrow">Commerce kit</p>
+            <h2>Product drops that feel intentional</h2>
+            <p class="section__lede">Launch-ready modules include featured collections, hero product stories, lifestyle galleries, and a warm checkout experience.</p>
+            <ul class="list">
+              <li>Shopify Storefront API wiring with live inventory</li>
+              <li>Reusable product cards with quick-add and variant states</li>
+              <li>Membership-aware pricing using Clerk and Shopify Functions</li>
+              <li>CMS-ready sections so your team can publish without dev time</li>
+            </ul>
+            <a class="button button--light" href="#contact">Start a project</a>
+          </div>
+          <div class="dark-panel__sample">
+            <div class="sample-card">
+              <div class="sample-card__top">
+                <span class="status">New Drop</span>
+                <span class="price">$168</span>
+              </div>
+              <h3>Velvet Arc Candle</h3>
+              <p class="muted">Hand-poured soy blend, double-wick, with notes of wild fig and amber.</p>
+              <div class="swatches">
+                <span class="swatch swatch--teal"></span>
+                <span class="swatch swatch--mauve"></span>
+                <span class="swatch swatch--gold"></span>
+              </div>
+              <div class="sample-card__actions">
+                <button class="button button--primary">Add to cart</button>
+                <button class="button button--ghost">Quick view</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--light">
+        <div class="container">
+          <div class="section__header">
+            <p class="eyebrow">Flow</p>
+            <h2>From welcome to checkout, perfectly guided</h2>
+          </div>
+          <div class="timeline">
+            <div class="timeline__item">
+              <div class="timeline__marker">1</div>
+              <div class="timeline__body">
+                <h3>Clerk-powered welcome</h3>
+                <p>Magic links, social logins, and profile completion flows that feel premium.</p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__marker">2</div>
+              <div class="timeline__body">
+                <h3>Curated browsing</h3>
+                <p>Filtered collections, rich product storytelling, and editorial spotlights for each season.</p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__marker">3</div>
+              <div class="timeline__body">
+                <h3>Confident purchase</h3>
+                <p>Shopify checkout with trust badges, express pay, and on-brand emails after purchase.</p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__marker">4</div>
+              <div class="timeline__body">
+                <h3>Loyalty moments</h3>
+                <p>Member-only drops, saved preferences, and personalized recommendations powered by your data.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--highlight">
+        <div class="container cta" id="contact">
+          <div class="cta__text">
+            <p class="eyebrow">Let’s build Saramatic</p>
+            <h2>Ready for a flagship launch?</h2>
+            <p class="section__lede">Tell us about your products, membership ideas, and launch timeline. We’ll design the full stack and hand you a site that feels unmistakably you.</p>
+          </div>
+          <div class="cta__actions">
+            <a class="button button--primary" href="mailto:hello@saramatic.com">Email the studio</a>
+            <a class="button button--ghost" href="#">Download the capabilities deck</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__content">
+        <div>
+          <p class="eyebrow">Saramatic</p>
+          <p class="muted">Built with Next.js, React, Tailwind, Clerk, and Shopify.</p>
+        </div>
+        <div class="footer__links">
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+          <a href="#">Privacy</a>
+        </div>
       </div>
-
-    </section>
-
-    <footer>
-      <p>Copyright Dog Walkers 2020</p>
     </footer>
-
   </div>
 </body>
 </html>
